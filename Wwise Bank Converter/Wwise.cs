@@ -190,6 +190,7 @@ namespace WwiseBankConverter
                     16 => new FxCustom(),
                     17 => new FxCustom(),
                     18 => new Bus(),
+                    20 => new EnvelopeModulator(),    
                     21 => new AudioDevice(),
                     _ => throw new NotImplementedException("HircType " + hircType + " at " + wd.offset),
                 };
